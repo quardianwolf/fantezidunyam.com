@@ -1,26 +1,12 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import '../public/asset/css/bootstrap-theme.min.css';
+@import '../public/asset/css/bootstrap.min.css';
+@import '../public/asset/css/font-awesome.min.css';
+@import '../public/asset/css/font-family.css';
+@import '../public/asset/css/jquery.fancybox.min.css';
+@import '../public/asset/css/responsive.css';
+@import '../public/asset/css/slick-theme.css';
+@import '../public/asset/css/slick.css';
+@import '../public/asset/css/style-main.css';
+@import '../public/asset/css/themify-icons.css';
+@import '../public/asset/css/zoa-font.css';
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
