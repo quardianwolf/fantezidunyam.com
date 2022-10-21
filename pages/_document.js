@@ -10,7 +10,7 @@ export default function Document() {
         <NextScript />
         <Script src="asset/js/jquery-3.3.1.min.js" strategy="beforeInteractive"></Script>
         <Script src="asset/js/bootstrap.min.js" strategy="beforeInteractive"></Script>
-        <Script src="asset/js/slick.min.js" strategy="lazyOnload"></Script>
+        <Script src="asset/js/slick.min.js" strategy="beforeInteractive"></Script>
         <Script src="asset/js/function-main.js" strategy="lazyOnload"></Script>
 
       </body>
